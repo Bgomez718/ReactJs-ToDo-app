@@ -1,0 +1,49 @@
+.task {
+  background-color: tomato;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10pc;
+  height: 25px;
+}
+
+.task > form {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  height: 20px;
+}
+
+html {
+  background-color: #ffccb3;
+}
+
+.toDoList > h1 {
+  text-align: center;
+}
+
+.task > form {
+  display: flex;
+  align-content: flex-end;
+}
+
+.inheritM {
+  margin: inherit;
+}
+.cBox {
+  position: relative;
+  right: 1%;
+  top: 15%;
+  bottom: 2%;
+}
+
+.goal {
+  position: relative;
+  left: 5%;
+  top: 18%;
+}
+.toDoList > form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
